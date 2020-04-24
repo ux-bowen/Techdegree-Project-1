@@ -55,17 +55,17 @@ a:hover {
   color: white
 }
 
-header {
+.main-header {
   text-align: center;
   background: url('images/phoenix cactus.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+.main-header {
   line-height: 1.5;
 }
-header .profile-image {
+.main-header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -73,8 +73,18 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image:hover {
+.main-header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+.secondary-header {
+  text-align: center;
+  background: url('images/Phoenix app without overlay.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.secondary-header {
+  line-height: 1.5;
 }
 
 .tag {
